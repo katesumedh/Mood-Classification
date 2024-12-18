@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>Prediction Result</header>
+        <div class="result-box">
+            <h2>Your Mood: {{ label }}</h2>
+            <p>The system detected that you are feeling <strong>{{ label }}</strong>.</p>
+            <a href="/" style="text-decoration: none;">
+                <button>Try Another Image</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
